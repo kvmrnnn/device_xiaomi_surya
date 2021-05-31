@@ -9,20 +9,14 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Descendant-XI stuff.
-$(call inherit-product, vendor/descendant/config/common_full_phone.mk)
-
-# Blur
-TARGET_SUPPORTS_BLUR := true
-
-# Faceunlock
-TARGET_FACE_UNLOCK_SUPPORT := YES
+# Inherit some common XPerience stuff.
+$(call inherit-product, vendor/xperience/config/common.mk)
 
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := descendant_surya
+PRODUCT_NAME := xperience_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3 NFC

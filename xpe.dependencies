@@ -1,15 +1,14 @@
 [
   {
-    "remote": "github",
-    "repository": "Descendant-Devices/device_xiaomi_surya",
+    "repository": "device_xiaomi_surya",
     "target_path": "device/xiaomi/surya",
-    "branch": "eleven"
+    "branch": "15.0"
   },
   {
-    "remote": "github",
-    "repository": "Descendant-Devices/device_xiaomi_surya",
+    "remote": "unicorn",
+    "repository": "proprietary_xiaomi_surya",
     "target_path": "vendor/xiaomi/surya",
-    "branch": "eleven"
+    "branch": "15.0"
   },
   {
     "remote": "github",
