@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xperience_surya.mk
+    $(LOCAL_DIR)/p404_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    xperience_surya-user \
-    xperience_surya-userdebug \
-    xperience_surya-eng
+    p404_surya-user \
+    p404_surya-userdebug \
+    p404_surya-eng
